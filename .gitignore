@@ -1,1 +1,19 @@
+# Python compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment folder
 .venv/
+venv/
+env/
+
+# Database
+db.sqlite3
+
+# Django secret key file (if you put SECRET_KEY in a .env)
+.env
+
+# Django migrations (optional: some teams keep them, some don't)
+*/migrations/*.py
+*/migrations/*.pyc
